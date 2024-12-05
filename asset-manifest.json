@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Blog-Life-style-notes/static/css/main.abe2cbb7.css",
+    "main.js": "/Blog-Life-style-notes/static/js/main.d62c7b13.js",
+    "static/js/453.ede2c593.chunk.js": "/Blog-Life-style-notes/static/js/453.ede2c593.chunk.js",
+    "static/media/fluegzeug.png": "/Blog-Life-style-notes/static/media/fluegzeug.c063ddbbd35bebbe5bc9.png",
+    "index.html": "/Blog-Life-style-notes/index.html",
+    "main.abe2cbb7.css.map": "/Blog-Life-style-notes/static/css/main.abe2cbb7.css.map",
+    "main.d62c7b13.js.map": "/Blog-Life-style-notes/static/js/main.d62c7b13.js.map",
+    "453.ede2c593.chunk.js.map": "/Blog-Life-style-notes/static/js/453.ede2c593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe2cbb7.css",
+    "static/js/main.d62c7b13.js"
+  ]
+}
