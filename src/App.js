@@ -40,7 +40,7 @@ function App() {
         <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
      <Route
-          path="/Blog-Life-style-notes"
+          path="https://veronikariabysheva.github.io/Blog-Life-style-notes/"
           element={<Home isAuth={isAuth} />}
         />
       </Routes>
