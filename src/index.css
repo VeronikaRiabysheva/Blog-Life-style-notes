@@ -9,11 +9,11 @@ body {
   margin: 0%;
   font-family: "Jost", sans-serif;
   font-weight: 400;
-  background-image: url(./img/fluegzeug.png);
+  /* background-image: url(./img/fluegzeug.png);
   background-size: 100%;
   background-position: center center;
-  background-blend-mode: multiply;
-  background-color: #413e3e;
+  background-blend-mode: multiply; */
+  background-color: #989898;
   background-position: 50% 15%;
 }
 .logoName {
@@ -39,9 +39,12 @@ nav {
   font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  background: rgb(176, 173, 168);
+  background: #c17575;
   border-radius: 5px;
   padding: 10px 15px;
+}
+.logOut:hover {
+  background: #c36262;
 }
 
 a {
@@ -62,7 +65,7 @@ a {
   width: 500px;
   height: auto;
   padding: 20px;
-  background-color: rgb(188, 191, 191);
+  background-color: rgb(255, 255, 255);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -87,6 +90,7 @@ a {
   border: none;
   border-radius: 2px;
   padding: 5px;
+  background-color: #ececec;
 }
 
 .inputGp input {
@@ -105,6 +109,10 @@ a {
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  background-color: #c46060;
+}
+.cpContainer button:hover {
+  background-color: #c64f4f;
 }
 input,
 textarea {
@@ -178,13 +186,13 @@ textarea {
   width: 600px;
   height: auto;
   max-height: 600px;
-  background-color: rgb(188, 191, 191);
+  background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 20px;
   padding: 20px;
   border-radius: 15px;
   scrollbar-width: thin;
-  scrollbar-color: #219ca0 rgb(188, 191, 191);
+  scrollbar-color: black rgb(222, 226, 226);
 }
 
 .post .postHeader {
@@ -195,7 +203,7 @@ textarea {
 
 .postHeader .title {
   flex: 70%;
-  color: #219ca0;
+  color: #101010;
   text-shadow: 2px 3px 6px rgb(216, 226, 231);
 }
 .postHeader .deletePost {
@@ -210,7 +218,7 @@ textarea {
   background: none;
   font-size: 30px;
   cursor: pointer;
-  color: black;
+  color: #f20909;
 }
 
 .post .postTextContainer {
